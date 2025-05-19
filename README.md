@@ -1,12 +1,21 @@
-# React + Vite
+# Multi-Step Form: ReactJS + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Olá, me chamo Bruno de Oliveira e este projeto é uma aplicação desenvolvida com ReactJS e Vite, demonstrando a implementação de um formulário multi-etapas de maneira clara e intuitiva. O fluxo do formulário é dividido em três etapas distintas:
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Identificação:**  
+   - Os usuários inserem seus dados básicos, como nome e e-mail.
 
-## Expanding the ESLint configuration
+2. **Avaliação:**  
+   - Nesta etapa, os usuários podem avaliar por meio de quatro escalas, representadas por emojis que vão de "Insatisfeito" a "Ótimo".  
+   - Também há um campo para comentários adicionais, permitindo feedback mais detalhado.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Envio (Resumo):**  
+   - Ao finalizar, a aplicação exibe um resumo com os dados inseridos: nome do usuário, o comentário digitado e o emoji que representa a avaliação selecionada.  
+   - **Observação:** Embora a etapa de envio mostre o resumo dos dados, ela não realiza a submissão para um backend, funcionando apenas como uma demonstração do fluxo.
+
+## Tecnologias Utilizadas
+
+- **ReactJS:** Biblioteca para construção de interfaces de usuário.
+- **Vite:** Ferramenta que proporciona um ambiente de desenvolvimento rápido e eficiente. (foi simplesmente usada por fazer a instalação das depedencias React de forma rápida e tranquila)
